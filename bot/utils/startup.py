@@ -118,15 +118,6 @@ def pprint(config):
         webhook_urls.extend(x for x in element.get("webhook_urls", []))
 
     INFO = [
-        "        _   _ _   _ _____ _                 ____ _____ ____",
-        "       | \ | | \ | |_   _(_)_ __           |  _ \_   _| __ )",
-        "       |  \| |  \| | | | | | '_ \   _____  | | | || | |  _ \\",
-        "       | |\  | |\  | | | | | | | | |_____| | |_| || | | |_) |",
-        "       |_| \_|_| \_| |_| |_|_| |_|         |____/ |_| |____/",
-        "",
-        "Discord-Twitter-Bot has a detailed documentation, found here:",
-        "https://nntin.github.io/discord-twitter-bot",
-        "",
         "Twitter Users: {}".format(len(follow)),
         "Tracked Words: {}".format(len(track)),
         "Location Boxes: {}".format(int(len(location) / 4)),
