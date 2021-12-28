@@ -386,8 +386,8 @@ class Processor:
             icon_url=self.status_tweet["user"]["profile_image_url"],
         )
         self.embed.set_footer(
-            text="Tweet created on",
-            icon_url="https://cdn1.iconfinder.com/data/icons/iconza-circle-social/64/697029-twitter-512.png",
+            text="CashApp Twitter Giveaways | @Dannny#2726",
+            icon_url="https://cdn.discordapp.com/avatars/439622729403203594/c86714a44d5ad4bf18b2f6d1e8a9f3d5.png?size=1024",
         )
 
     def send_message(self, wh_url):
